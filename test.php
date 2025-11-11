@@ -12,8 +12,8 @@ Vipps::setConfig(Config::create([
   'merchantSerialNumber' => 10000,
   'accessTokenSubscriptionKey' => '123456789abcdef123456789abcdef12',
   'ecommerceSubscriptionKey' => '123456789abcdef123456789abcdef12',
-  'callbackPrefix' => 'https://domain.tld/callback',
-  'fallBack' => 'https://domain.tld/fallback'
+  'callbackPrefix' => 'https://amet.testdff.site/callback.php',
+  'fallBack' => 'https://amet.testdff.site/fallback.php'
 ]));
 
 $payment = Payment::create([
