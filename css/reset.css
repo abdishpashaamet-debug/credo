@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    font: inherit;
+    font-family: Caladea, Arial, sans-serif;
+    color: inherit;
+    box-sizing: border-box;
+}
+
+.fw {
+    max-width: 1290px;
+    padding: 0 20px;
+    margin: auto;
+}
+
+.hr {
+    height: 5.6px;
+    width: 100px;
+    background: rgb(244, 101, 48);
+    margin: 30px auto;
+    border-radius: 2px;
+}
+
+.hr.l {
+    margin-left: 0px;
+}
+
+.hr.m {
+    width: 45px;
+    height: 3px;
+}
+  button {
+        background-color: #e35b2f;
+        color: #fff;
+        border: none;
+        padding: 14px 40px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 20px;
+        transition: 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #c94e26;
+    }

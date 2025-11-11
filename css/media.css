@@ -1,0 +1,56 @@
+@media (max-width: 768px) {
+    .konserter .card {
+        width: 90%;
+    }
+
+    .konserter ul {
+        gap: 24px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .nav {
+       li {
+        padding: 0 5px;
+       }
+    }
+}
+@media (max-width: 980px) {
+    .nav {
+       li {
+            font-size: 14px;
+    }
+    }
+}
+@media (max-width: 860px) {
+    .nav {
+        ul {
+            display: none;
+        }
+        .fa-user {
+            display: none;
+        }
+        .burger_wrapper {
+            display: block;
+        }
+    }
+}
+@media (max-width: 1300px) {
+    .vartRan {
+        display: block;
+
+        h2 {
+            margin-top: 25px;
+        }
+        img {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+        }
+    }
+}
+@media (max-width: 730px) {
+    .harmonien {
+       padding: 30px;
+    }
+}

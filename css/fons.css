@@ -1,0 +1,23 @@
+/* ------------------/ Caladea /------------------ */
+@font-face {
+    font-family: "Caladea";
+    src: url('../res/fonts/Caladea-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Caladea";
+    src: url('../res/fonts/Caladea-Italic.ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: "Caladea";
+    src: url('../res/fonts/Caladea-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Caladea";
+    src: url('../res/fonts/Caladea-BoldItalic.ttf');
+    font-weight: 600;
+    font-style: italic;
+}
