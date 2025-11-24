@@ -17,7 +17,7 @@
    include("component/nav.php")
    ?>
   <section class="oss vartRan">
-        <img src="https://files.cdn-files-a.com/uploads/9768731/2000_gi-6723bebb6d7a2_filter_6723befa9f94e.jpg" alt="">
+        <img src="res/img/logo.jpg" alt="">
         <article class="text">
             <h2>Vil du støtte oss?</h2>
             <div class="hr l"></div>

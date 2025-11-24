@@ -1,5 +1,5 @@
 {
     "require": {
-        "apility/vipps": "*"
+        "apility/vipps": "^3.0"
     }
 }

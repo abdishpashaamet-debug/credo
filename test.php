@@ -1,10 +1,11 @@
 <?php
 
+require __DIR__ . '/vendor/autoload.php'; // 👈 добавь ЭТУ строку
+
 use Vipps\Vipps;
 use Vipps\Config;
 use Vipps\Ecommerce\Payment;
 
-// The given values are just for illustration
 Vipps::setConfig(Config::create([
   'endpoint' => 'https://apitest.vipps.no',
   'clientId' => '12345678-1234-5678-1234-56781234',
@@ -21,7 +22,7 @@ $payment = Payment::create([
     'mobileNumber' => '12345678'
   ],
   'transaction' => [
-    'amount' => 1337 //1337.00 NOK,
+    'amount' => 1337,
     'transactionText' => 'Hello World!'
   ]
 ]);
@@ -29,4 +30,4 @@ $payment = Payment::create([
 $payment->charge();
 
 header('Location: ' . $payment->url);
-die();
+exit;

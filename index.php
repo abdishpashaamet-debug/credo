@@ -34,33 +34,9 @@
 include("block/vartmal.php")
 ?>
 
-    <section class="syng">
-        <div class="fw">
-
-            <h2>Vil du synge med oss?</h2>
-            <div class="hr m"></div>
-            <ul>
-                <li>
-                    <img src="https://files.cdn-files-a.com/uploads/9768731/800_gi-6723aee77dd85.jpg" alt="">
-                    <div class="text">
-                        <h3>Velkommen til opptaksprøve</h3>
-                        <p>Her kan du raskt og enkelt bestille tid til opptaksprøver.</p>
-                    </div>
-                    <p class="prise">Gratis</p>
-                </li>
-
-                <li class="lien">
-                    <img src="https://files.cdn-files-a.com/uploads/9768731/800_gi-6724fdb8262af.jpg" alt="">
-                    <div class="text">
-                        <h3>Gruppetimer i kor og vokal.</h3>
-                        <p>Vi inviterer barn til gruppetimer i kor og vokal! Pris er angitt per semester.</p>
-                    </div>
-                    <button>kr1000.00</button>
-                </li>
-
-            </ul>
-        </div>
-    </section>
+<?php
+include("block/syngeg.php");
+?>
 
 
     <section class="oppdrag">
@@ -102,15 +78,15 @@ include("block/vartmal.php")
                 <li>
                     <div class="card">
                         <div class="date"><span>12</span><small>Apr</small></div>
-                        <img src="https://images.cdn-files-a.com/ready_uploads/media/9331686/800_637a1111d8ee3.jpg"
+                        <img src="res/img/konserter_11.jpg"
                             alt="">
                         <p>Påske konsert</p>
                     </div>
                 </li>
                 <li>
                     <div class="card">
-                        <div class="date"><span>20</span><small>Dec</small></div>
-                        <img src="https://files.cdn-files-a.com/uploads/9768731/800_6756cd015106d.jpg" alt="">
+                        <div class="date"><span>6</span><small>Dec</small></div>
+                         <img src="res/img/konserter_22.jpg" alt="">
                         <p>Julesang</p>
                     </div>
                 </li>
@@ -133,9 +109,9 @@ include("block/vartmal.php")
                 <li>
                     <div class="card">
                         <div class="date"><span>6</span><small>Jan</small></div>
-                        <img src="res/img/kons.jpg" alt="">
-                        <p>Julekonsert
-                            Det ukrainske barnekoret Credo med venner fra Norge og Ukraina
+                        <img src="res/img/konserter_55.jpg" alt="">
+                        <p>
+                            Julekonsert Frogner kirke 
                         </p>
                     </div>
                 </li>
@@ -233,6 +209,7 @@ include("block/vartmal.php")
                 <p>📞 +47-46858384 - Anastasiia Boiko / leder</p>
                 <p>📞 +47-96829613 - Larysa Smaga / dirigent</p>
                 <p>✉️ barnekorcredo@gmail.com</p>
+                <a href="https://www.facebook.com/share/1HJaHjHM7z/?mibextid=wwXIfr">facebook</a>
             </div>
             <iframe src="https://www.google.com/maps?q=Kolstadgata%201%20Oslo&output=embed" loading="lazy"
                 allowfullscreen></iframe>
@@ -256,7 +233,9 @@ include("block/vartmal.php")
             </div>
 
             <div class="price-right">
+                <a href="card.php">
                 <button>BETALE NÅ</button>
+                </a>
             </div>
         </div>
 
@@ -273,7 +252,9 @@ include("block/vartmal.php")
             </div>
 
             <div class="price-right">
+                <a href="card.php">
                 <button>ORDER NOW</button>
+                </a>
             </div>
         </div>
     </section>

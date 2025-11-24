@@ -13,15 +13,16 @@
  </footer>
 
 
- <div class="popup__container ">
+ <div class="popup__container">
      <div class="bg" onclick="popup_open('popup-auth')"></div>
      <button onclick="popup_open('popup-auth')">X</button>
      <div class="popup popup-auth active">
          <div class="content">
              <p class="p">Skriv inn e-posterdessen din </p>
              <div class="wrapper">
-                 <form action="">
-                     <input type="text">
+                 <form action="auh.php">
+                     <input type="email" placeholder="введите имеил" name="email">
+                     <input type="password" placeholder="введите пароль" name="password">
                      <button>LOGG PA ELLER OPPRETT EN KONTO</button>
                  </form>
                  <p>Eller fortsett a bruke</p>

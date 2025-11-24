@@ -17,7 +17,7 @@
    include("component/nav.php")
    ?>
 
-    <section class="konserter">
+   <section class="konserter">
         <div class="fw">
             <h2>Konserter</h2>
             <div class="hr m"></div>
@@ -25,15 +25,15 @@
                 <li>
                     <div class="card">
                         <div class="date"><span>12</span><small>Apr</small></div>
-                        <img src="https://images.cdn-files-a.com/ready_uploads/media/9331686/800_637a1111d8ee3.jpg"
+                        <img src="res/img/konserter_11.jpg"
                             alt="">
                         <p>Påske konsert</p>
                     </div>
                 </li>
                 <li>
                     <div class="card">
-                        <div class="date"><span>20</span><small>Dec</small></div>
-                        <img src="https://files.cdn-files-a.com/uploads/9768731/800_6756cd015106d.jpg" alt="">
+                        <div class="date"><span>6</span><small>Dec</small></div>
+                        <img src="res/img/konserter_22.jpg" alt="">
                         <p>Julesang</p>
                     </div>
                 </li>
@@ -55,9 +55,10 @@
 
                 <li>
                     <div class="card">
-                        <div class="date"><span>13</span><small>Dec</small></div>
-                        <img src="https://files.cdn-files-a.com/uploads/9768731/800_68c4173690feb.jpg" alt="">
-                        <p>Julekonsert Frogner kirke</p>
+                        <div class="date"><span>6</span><small>Jan</small></div>
+                        <img src="res/img/konserter_55.jpg" alt="">
+                        <p>Julekonsert Frogner kirke 
+                        </p>
                     </div>
                 </li>
 
