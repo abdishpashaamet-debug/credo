@@ -1,16 +1,19 @@
 @media (max-width: 1300px) {
     .vartRan {
-        display: block;
+        .fw {
+            display: block;
 
-        h2 {
-            margin-top: 25px;
+            h2 {
+                margin-top: 25px;
+            }
+
+            img {
+                width: 100%;
+                height: 400px;
+                object-fit: cover;
+            }
         }
 
-        img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-        }
     }
 }
 
@@ -80,8 +83,27 @@
         li {
             grid-template-columns: 1fr;
         }
+
         img {
             width: 100%;
         }
     }
 }
+
+@media (max-width: 435px) {
+    .harmonien .text {
+        padding: 20px;
+
+        h2 {
+            font-size: 20px;
+            font-weight: 400;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    .fw {
+        padding: 5px;
+    }
+}
+

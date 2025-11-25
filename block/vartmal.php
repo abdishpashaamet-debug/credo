@@ -1,5 +1,5 @@
-
-    <section class="vart vartRan">
+<section class="vart vartRan">
+    <div class="fw">
         <img src="res/img/vart_1.jpg" alt="">
         <article class="text">
             <h2>Vårt mål</h2>
@@ -10,4 +10,5 @@
             <p>Barna synger ukrainske, norske og internasjonale sanger. Det ukrainske barnekoret i Norge fungerer som en
                 viktig bro mellom kulturer, og fremmer integrering og gjensidig forståelse. </p>
         </article>
-    </section>
+    </div>
+</section>

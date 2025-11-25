@@ -15,8 +15,8 @@
 
 <body>
     <?php
-   include("component/nav.php")
-   ?>
+    include("component/nav.php")
+    ?>
 
     <header class="header">
         <div class="img"></div>
@@ -27,112 +27,30 @@
     </header>
 
     <?php
-   include("block/harmonienpa.php")
-   ?>
+    include("block/harmonienpa.php")
+    ?>
 
     <?php
-include("block/vartmal.php")
-?>
+    include("block/vartmal.php")
+    ?>
+
+    <?php
+    include("block/syngeg.php");
+    ?>
+
+    <?php
+    include("block/oppdrageg.php");
+    ?>
+
+    <?php
+    include("block/konserterg.php");
+    ?>
 
 <?php
-include("block/syngeg.php");
-?>
+    include("block/vartmal.php");
+    ?>
 
-
-    <section class="oppdrag">
-        <div class="fw">
-            <h2>Oppdrag</h2>
-            <div class="hr m"></div>
-            <ul>
-                <li>
-                    <img src="https://files.cdn-files-a.com/uploads/9768731/400_gi-66fad6f961ed8_filter_6723ba6c2df08.jpg"
-                        alt="">
-                    <div class="text">
-                        <h3>Samarbeid</h3>
-                        <p>
-                            Det ukrainske barnekoret Credo synger på oppdrag for private selskaper, på julebord og andre
-                            arrangementer. Vi samarbeider også med andre musikere og kor.
-                        </p>
-                    </div>
-                </li>
-                <li>
-                    <img src="https://files.cdn-files-a.com/uploads/9768731/400_gi-66fad752db3c4_filter_6723b9d1b74d7.jpg"
-                        alt="">
-                    <div class="text">
-                        <h3>Kulturarrangementer og forestillinger</h3>
-                        <p>Vi ønsker å delta på kulturelle arrangementer og forestillinger som fremhever skjønnheten i
-                            ukrainske, norske og andre flerkulturelle kortradisjoner.
-                        </p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section>
-
-
-    <section class="konserter">
-        <div class="fw">
-            <h2>Konserter</h2>
-            <div class="hr m"></div>
-            <ul>
-                <li>
-                    <div class="card">
-                        <div class="date"><span>12</span><small>Apr</small></div>
-                        <img src="res/img/konserter_11.jpg"
-                            alt="">
-                        <p>Påske konsert</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <div class="date"><span>6</span><small>Dec</small></div>
-                         <img src="res/img/konserter_22.jpg" alt="">
-                        <p>Julesang</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <div class="date"><span>19</span><small>Dec</small></div>
-                        <img src="https://images.cdn-files-a.com/ready_uploads/media/82870/800_5ce5871b96219.jpg"
-                            alt="">
-                        <p>Oslo bussterminal konsert</p>
-                    </div>
-                </li>
-                <li>
-                    <div class="card">
-                        <div class="date"><span>13</span><small>Dec</small></div>
-                        <img src="https://files.cdn-files-a.com/uploads/9768731/800_68c4173690feb.jpg" alt="">
-                        <p>Julekonsert Frogner kirke</p>
-                    </div>
-                </li>
-
-                <li>
-                    <div class="card">
-                        <div class="date"><span>6</span><small>Jan</small></div>
-                        <img src="res/img/konserter_55.jpg" alt="">
-                        <p>
-                            Julekonsert Frogner kirke 
-                        </p>
-                    </div>
-                </li>
-
-            </ul>
-        </div>
-    </section>
-
-    <section class="oss vartRan">
-        <img src="res/img/logo.jpg" alt="">
-        <article class="text">
-            <h2>Vil du støtte oss?</h2>
-            <div class="hr l"></div>
-            <p>Koret Credo ønsker å skape et kreativt rom for ukrainske barn og gi dem muligheten til å bevare sin
-                kulturelle arv og samtidig som de integrerer seg i sammfunnet gjennom norsk sang.
-            </p>
-            <p>Hvis du ønsker å støtte koret og vårt viktige arbeid, kan bidrag sendes til:
-            </p>
-            <p class="pi">Vipps #942467 </p>
-        </article>
-    </section>
+   
 
     <section id="testimonial" class="testimonial-section">
         <h2>Tilbakemeldinger</h2>
@@ -209,7 +127,14 @@ include("block/syngeg.php");
                 <p>📞 +47-46858384 - Anastasiia Boiko / leder</p>
                 <p>📞 +47-96829613 - Larysa Smaga / dirigent</p>
                 <p>✉️ barnekorcredo@gmail.com</p>
-                <a href="https://www.facebook.com/share/1HJaHjHM7z/?mibextid=wwXIfr">facebook</a>
+                <a href="https://www.facebook.com/share/1HJaHjHM7z/?mibextid=wwXIfr">
+                    📘 Facebook
+                </a><br>
+                <a href="https://www.instagram.com/det_ukrainske_barnekoret_credo?igsh=MXZkOGJjYmRkYm92OQ==">
+                    📸 Instagram
+                </a>
+
+
             </div>
             <iframe src="https://www.google.com/maps?q=Kolstadgata%201%20Oslo&output=embed" loading="lazy"
                 allowfullscreen></iframe>
@@ -234,7 +159,7 @@ include("block/syngeg.php");
 
             <div class="price-right">
                 <a href="card.php">
-                <button>BETALE NÅ</button>
+                    <button>BETALE NÅ</button>
                 </a>
             </div>
         </div>
@@ -253,7 +178,7 @@ include("block/syngeg.php");
 
             <div class="price-right">
                 <a href="card.php">
-                <button>ORDER NOW</button>
+                    <button>ORDER NOW</button>
                 </a>
             </div>
         </div>
@@ -337,8 +262,8 @@ include("block/syngeg.php");
     </section>
 
     <?php
-      include("component/footer.php");
-      ?>
+    include("component/footer.php");
+    ?>
 </body>
 
 </html>
