@@ -1,3 +1,4 @@
+
 <?php
 
 require __DIR__ . '/vendor/autoload.php'; // 👈 добавь ЭТУ строку
@@ -27,7 +28,7 @@ $payment = Payment::create([
   ]
 ]);
 
-$payment->charge();
+// $payment->charge();
 
 header('Location: ' . $payment->url);
 exit;
