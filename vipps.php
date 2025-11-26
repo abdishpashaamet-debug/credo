@@ -1,7 +1,18 @@
 <?php
 // Тестовая оплата Vipps MobilePay — ePayment API
+$file = 'data.json';
+$data = json_decode(file_get_contents($file), true);
 
+
+// добавляем новое поле
+$data['test'] = 'test';
+
+// сохраняем
+file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 // Настройки (подставь свои)
+
+
+
 $clientId = 'bf9b0045-f5d6-4e42-9253-47bf6b4925d4';
 $clientSecret = '3B.8Q~uHnfQGRECPVIgWOo~5Goi0SMS~z0ZrCaQa';
 $subscriptionKey = '00efb12c5ea54f6b9b2a7112e951fce3';
