@@ -16,8 +16,8 @@ file_put_contents($file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_U
 $clientId = 'bf9b0045-f5d6-4e42-9253-47bf6b4925d4';
 $clientSecret = '3B.8Q~uHnfQGRECPVIgWOo~5Goi0SMS~z0ZrCaQa';
 $subscriptionKey = '00efb12c5ea54f6b9b2a7112e951fce3';
-$merchantSerialNumber = '8896b115e1f74fc4bfa21abef9bf1695';  // Merchant Serial Number
-$callbackUrl = 'https://amet.testdff.site/callback.php';  // куда вернётся пользователь
+$merchantSerialNumber = '4747203209';  
+$callbackUrl = 'https://amet.testdff.site/callback.php'; 
 $returnUrl = 'https://amet.testdff.site/return.php';
 
 
@@ -106,6 +106,9 @@ function createPayment($accessToken, $subscriptionKey, $merchantSerialNumber, $p
     ]);
     curl_setopt($ch, CURLOPT_POSTFIELDS, $payload);
     $response = curl_exec($ch);
+    if(curl_errno($ch)) {
+    echo 'Curl error: ' . curl_error($ch);
+}
     curl_close($ch);
     return json_decode($response, true);
 }
@@ -129,8 +132,12 @@ http_response_code(200);
 ?>
 */
 
+
+echo "<hr>accessToken <hr>";
 print_r($accessToken);
+echo "<hr>webhook <hr>";
 print_r($webhook);
+echo "<hr>payment <hr>";
 print_r($payment);
 
 ?>
