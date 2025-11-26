@@ -56,10 +56,6 @@ include("services/getauth.php");
     ?>
 
     <?php
-    include("block/vartmal.php");
-    ?>
-
-    <?php
     include("block/Tilbakemeldignerg.php");
     ?>
 

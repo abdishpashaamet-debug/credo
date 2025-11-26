@@ -95,7 +95,6 @@
 
 .vart {
 
-
     img {
 
         width: 606px;
@@ -118,7 +117,6 @@
         align-items: center;
         gap: 48px;
     }
-
 }
 
 .syng {
@@ -133,7 +131,6 @@
     }
 
     img {
-
         width: 200px;
         border-radius: 3px;
     }
@@ -145,16 +142,16 @@
         text-transform: uppercase;
     }
 
-    .text p {
-        color: rgb(0, 0, 0);
-        font: size 16.5px;
-        margin-top: 15px;
+    .prise {
+        color: rgb(244, 101, 48);
+        font-size: 20px;
+        margin-top: auto;
+        font-weight: 600;
     }
 
     li {
         display: grid;
         grid-template-columns: auto 1fr auto;
-
         background-color: rgb(255, 255, 255);
         border-radius: 8px;
         padding: 24px;
