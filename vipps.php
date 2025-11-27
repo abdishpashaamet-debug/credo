@@ -20,7 +20,7 @@ Vipps::setConfig(Config::create([
 
 $payment = Payment::create([
   'customerInfo' => [
-    'mobileNumber' => '12345678'
+    'mobileNumber' => '4791726664'
   ],
   'transaction' => [
     'amount' => 1337,

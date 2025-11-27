@@ -84,14 +84,16 @@
     .vartRan .fw {
         grid-template-columns: 1fr;
         text-align: center;
-    }
 
-    .vartRan img {
-        width: 100%;
-    }
+        img {
+            width: 100%;
+            height: auto;
+        }
 
-    .vartRan h2 {
-        font-size: 28px;
+        h2 {
+            font-size: 28px;
+        }
+
     }
 }
 
