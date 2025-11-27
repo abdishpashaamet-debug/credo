@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a7a82ad8fa0520f97c53cdcc0508fc6d",
+    "content-hash": "9f20e3ad21b1e459385b5f5421cac2ea",
     "packages": [
         {
             "name": "apility/vipps",
